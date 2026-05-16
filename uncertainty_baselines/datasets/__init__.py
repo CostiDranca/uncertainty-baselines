@@ -30,7 +30,7 @@ from uncertainty_baselines.datasets.cifar import Cifar10Dataset
 from uncertainty_baselines.datasets.cifar import Cifar10NDataset
 from uncertainty_baselines.datasets.cifar import Cifar100NDataset
 from uncertainty_baselines.datasets.cifar100_corrupted import Cifar100CorruptedDataset
-from uncertainty_baselines.datasets.cityscapes import CityscapesDataset
+'''from uncertainty_baselines.datasets.cityscapes import CityscapesDataset
 from uncertainty_baselines.datasets.cityscapes_corrupted import CityscapesCorruptedDataset
 from uncertainty_baselines.datasets.clinc_intent import ClincIntentDetectionDataset
 from uncertainty_baselines.datasets.criteo import CriteoDataset
@@ -91,3 +91,4 @@ except OSError:
   logging.warning(
       'Skipped importing the Speech Commands dataset due to OSError.',
       exc_info=True)
+'''
